@@ -10,6 +10,7 @@
 A FFT-based homogenization tool, please refer original offical version for more details.
 
 1. install and build the 3rd-parties
+```bash
 sh configure.sh
 sh build.sh
 ```
