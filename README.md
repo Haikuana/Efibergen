@@ -9,17 +9,11 @@
 
 A FFT-based homogenization tool, please refer original offical version for more details.
 
-1. install and build the 3rd-parties
+1. Install and build the 3rd-parties
 ```bash
 sh configure.sh
 sh build.sh
 ```
-2. after successful build update your envirnoment variables:
-```bash
-export PATH=$PATH:$FIBERGEN/bin
-export PYTHONPATH=$PYTHONPATH:$FIBERGEN/lib
-```
-where $FIBERGEN denotes your download directory.
 
 ## Run
 
