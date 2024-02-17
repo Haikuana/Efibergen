@@ -9,7 +9,7 @@
 
 A FFT-based homogenization tool, please refer original offical version for more details.
 
-1. Install and build the 3rd-parties
+Install and build the 3rd-parties
 ```bash
 sh configure.sh
 sh build.sh
@@ -17,11 +17,7 @@ sh build.sh
 
 ## Run
 
-Enter the following command to run the GUI (with an optional project file to load)
-```bash
-fibergen-gui [project.xml]
-```
-In order to run a project file from the command line run
+In order to test a data directory "data" from the command line directly, go back to the directory that is the parent of "data", and run: 
 ```bash
 fibergen project.xml
 ```
