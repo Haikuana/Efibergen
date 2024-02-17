@@ -19,5 +19,14 @@ sh build.sh
 
 In order to test a data directory "data" from the command line directly, go back to the directory that is the parent of "data", and run: 
 ```bash
-fibergen project.xml
+bash all.sh data
+bash all.sh data 20
+bash all.sh data 20 5e-3
+```
+where the last three arguments after all.sh are data resources, threads, and error threshold.
+Note that, the name of the model file is important, especially ending with "_g_(resolution)".
+
+To visualize the model as well, run:
+```bash
+bash gui.sh data
 ```
